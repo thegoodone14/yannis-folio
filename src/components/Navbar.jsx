@@ -84,7 +84,7 @@ const Navbar = () => {
       <div className="flex space-x-4">
         <motion.div whileHover={{ scale: 1.1 }}>
           <Link 
-            href="https://linkedin.com" 
+            href="https://www.linkedin.com/in/yannis-n-guessan-907730211/" 
             target="_blank" 
             className="hover:text-blue-400 transition-colors p-2"
           >
@@ -93,7 +93,7 @@ const Navbar = () => {
         </motion.div>
         <motion.div whileHover={{ scale: 1.1 }}>
           <Link 
-            href="https://github.com" 
+            href="https://github.com/thegoodone14" 
             target="_blank" 
             className="hover:text-blue-400 transition-colors p-2"
           >
