@@ -76,14 +76,14 @@ const Projets = () => {
       title: "Parking App",
       description: "Application de gestion de places de parking permettant aux utilisateurs de réserver, gérer et suivre les places disponibles en temps réel.",
       image: "/api/placeholder/600/400",
-      technologies: ["React", "Node.js", "Express", "MongoDB"],
+      technologies: ["Laravel", "MySQL"],
       features: [
         "Système de réservation en temps réel",
         "Interface administrateur",
         "Gestion des places de parking",
         "Historique des réservations"
       ],
-      githubLink: "https://github.com/yannisdu/parking-app",
+      githubLink: "https://github.com/thegoodone14/parking",
       demoLink: "https://parking-app-demo.vercel.app"
     },
     {

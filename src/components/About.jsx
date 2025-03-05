@@ -31,7 +31,7 @@ const About = () => (
         >
           <div className="prose prose-lg prose-invert max-w-none">
             <p className="text-gray-300 leading-relaxed mb-6">
-              Passionné par le développement web depuis mes débuts en BTS SIO, 
+              Passionné par le développement web, 
               je m'efforce constamment d'apprendre et de maîtriser les dernières technologies 
               du web moderne.
             </p>
@@ -48,7 +48,7 @@ const About = () => (
             </div>
             <div className="p-4 bg-gray-700 bg-opacity-50 rounded-lg">
               <h3 className="font-bold text-blue-400">Backend</h3>
-              <p className="text-sm text-gray-300">Node.js, Express</p>
+              <p className="text-sm text-gray-300">Node.js, Express, PHP</p>
             </div>
             <div className="p-4 bg-gray-700 bg-opacity-50 rounded-lg">
               <h3 className="font-bold text-blue-400">Database</h3>
