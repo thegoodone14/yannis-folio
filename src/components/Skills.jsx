@@ -7,8 +7,11 @@ import {
 } from 'react-icons/fa';
 import { 
   SiMysql, SiPostgresql, 
-  SiPowerbi, SiTableau, SiR, SiPandas, SiNumpy, SiScikitlearn, SiJavascript, SiPhp, SiDocker
+  SiTableau, SiR, SiPandas, SiNumpy, SiScikitlearn, SiJavascript, SiPhp, SiDocker
 } from 'react-icons/si';
+
+// NOTE : J'ai retiré SiPowerbi des imports car il faisait planter le build.
+// J'ai utilisé FaChartBar à la place pour "Power BI" et "Excel".
 
 const skillsData = {
   dataAnalysis: {
@@ -26,7 +29,7 @@ const skillsData = {
     title: "Visualisation & Reporting",
     icon: <FaChartBar size={24} />,
     skills: [
-      { name: "Power BI", icon: <SiPowerbi size={16} /> },
+      { name: "Power BI", icon: <FaChartBar size={16} /> }, // Remplacé ici pour éviter l'erreur
       { name: "Tableau", icon: <SiTableau size={16} /> },
       { name: "Excel", icon: <FaChartBar size={16} /> }
     ]
