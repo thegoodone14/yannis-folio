@@ -20,6 +20,7 @@ const Hero = () => (
         transition={{ delay: 0.2, duration: 0.5 }}
       >
         <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-blue-500 shadow-lg">
+          {/* Assurez-vous que l'image est bien dans public/ */}
           <img
             src="/1734090891801.jpg"
             alt="Yannis N'GUESSAN"
@@ -40,23 +41,24 @@ const Hero = () => (
         </h1>
         <div className="space-y-2">
           <span className="block text-2xl md:text-3xl text-gray-300 font-normal">
-            Développeur Web Full Stack
+            Développeur Data & IA
           </span>
           <span className="block text-lg text-blue-400">
-            BTS SIO SLAM - 2023/2024
+            Bachelor Data & IA (3ème année) - ECE Paris
           </span>
         </div>
       </motion.div>
 
       {/* Description */}
       <motion.p
-        className="text-xl text-gray-300 max-w-2xl mx-auto"
+        className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed"
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.8 }}
       >
-        Passionné par le développement web et spécialisé dans la création d'applications 
-        innovantes. Je combine créativité et expertise technique pour donner vie à vos projets.
+        Étudiant passionné par l'analyse de données et l'intelligence artificielle. 
+        Je recherche un <strong>stage de 4 à 6 mois à partir d'avril</strong> pour apporter de la valeur 
+        à travers le nettoyage de données, la visualisation et le Machine Learning.
       </motion.p>
 
       {/* Boutons d'action */}
@@ -68,6 +70,7 @@ const Hero = () => (
       >
         <motion.a
           href="/cv.pdf"
+          target="_blank" // Ouvre le PDF dans un nouvel onglet
           className="px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg text-white font-semibold inline-flex items-center justify-center gap-2 hover:from-blue-700 hover:to-purple-700 transition-all duration-300"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -81,7 +84,7 @@ const Hero = () => (
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Découvrir mes projets
+            Voir mes projets Data
           </motion.button>
         </a>
       </motion.div>

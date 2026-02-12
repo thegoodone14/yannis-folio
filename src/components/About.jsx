@@ -31,32 +31,32 @@ const About = () => (
         >
           <div className="prose prose-lg prose-invert max-w-none">
             <p className="text-gray-300 leading-relaxed mb-6">
-              Passionné par le développement web, 
-              je m'efforce constamment d'apprendre et de maîtriser les dernières technologies 
-              du web moderne.
+              Actuellement étudiant en 3ème année de Bachelor Développeur Data & IA à l'ECE, 
+              je possède de solides bases en analyse exploratoire (EDA), nettoyage de données et visualisation.
             </p>
             <p className="text-gray-300 leading-relaxed mb-6">
-              Mon parcours m'a permis d'acquérir une solide expérience dans le développement 
-              d'applications web, en utilisant des technologies comme React, Node.js, et Next.js.
+              Mon objectif est de transformer les données brutes en informations exploitables pour la prise de décision.
+              Je maîtrise l'écosystème Python (Pandas, Scikit-learn) ainsi que les outils de Business Intelligence 
+              comme Power BI et Tableau.
             </p>
           </div>
 
           <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="p-4 bg-gray-700 bg-opacity-50 rounded-lg">
-              <h3 className="font-bold text-blue-400">Frontend</h3>
-              <p className="text-sm text-gray-300">React, Next.js</p>
+              <h3 className="font-bold text-blue-400">Analyse</h3>
+              <p className="text-sm text-gray-300">Python (Pandas), R, EDA</p>
             </div>
             <div className="p-4 bg-gray-700 bg-opacity-50 rounded-lg">
-              <h3 className="font-bold text-blue-400">Backend</h3>
-              <p className="text-sm text-gray-300">Node.js, Express, PHP</p>
+              <h3 className="font-bold text-blue-400">Visualisation</h3>
+              <p className="text-sm text-gray-300">Power BI, Tableau, Excel</p>
             </div>
             <div className="p-4 bg-gray-700 bg-opacity-50 rounded-lg">
-              <h3 className="font-bold text-blue-400">Database</h3>
-              <p className="text-sm text-gray-300">MongoDB, MySQL</p>
+              <h3 className="font-bold text-blue-400">Data Eng</h3>
+              <p className="text-sm text-gray-300">SQL (MySQL, Postgre), ETL</p>
             </div>
             <div className="p-4 bg-gray-700 bg-opacity-50 rounded-lg">
-              <h3 className="font-bold text-blue-400">Tools</h3>
-              <p className="text-sm text-gray-300">Git, Docker</p>
+              <h3 className="font-bold text-blue-400">Dev & Ops</h3>
+              <p className="text-sm text-gray-300">Git, Docker, Méthodes Agile</p>
             </div>
           </div>
         </motion.div>

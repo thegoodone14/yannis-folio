@@ -101,6 +101,7 @@ const Contact = () => {
               yannisnguessan99@gmail.com
             </a>
           </div>
+          
         </motion.div>
       </motion.div>
     </section>
